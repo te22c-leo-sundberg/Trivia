@@ -24,11 +24,19 @@ Console.WriteLine("a) 32 hours  b) 40 hours  c) I never left");
 string answer2 = Console.ReadLine();
 if (answer2 == "c")
 {
+    if (answer1 == "a")
+    {
+        Console.WriteLine("WOW!!! You're practically a genius with the way you're blowing through these questions left and right!");
+    }
     points++;
-    Console.WriteLine("WOW!!! You're practically a genius with the way you're blowing through these questions left and right!");
+    Console.WriteLine("Not bad, definietly better than before, but I'm gonna need more.");
 }
 else
 {
+    if(answer1 == "a")
+    {
+        Console.WriteLine("Boy oh boy am I dissapointed. After getting the first one right, I thought you'd have at least a bit of common sense.");
+    }
     Console.WriteLine("HAHAHAHAHAH, did you really think I'd leave a place as comfortable as your walls, the view is too intoxicating.");
 }
 
@@ -52,13 +60,13 @@ if (points == 0)
 {
     Console.WriteLine("This is fucking horrible, you serve zero purpose.");
 }
-else if (points < 2)
+else if (points < 2 )
 {
     Console.WriteLine("Not the worst, but I WANT BETTER");
 }
 else if (points < 3)
 {
-    Console.WriteLine("Close, but NOT CLOSE ENOUGH!")
+    Console.WriteLine("Close, but NOT CLOSE ENOUGH!");
 }
 else 
 {
