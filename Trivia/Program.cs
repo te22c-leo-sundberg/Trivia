@@ -47,7 +47,11 @@ string answer3 = Console.ReadLine();
 if (answer3 == "c")
 {
     points++;
-    Console.WriteLine("HAHAHAHAHAH WOW, YOU'RE TOO GOOD AT THIS!");
+    if (answer2 == "c")
+    {
+        Console.WriteLine("HAHAHAHAHAH WOW, YOU'RE TOO GOOD AT THIS!");
+    }
+        Console.WriteLine("AT LEAST ANSWERED THE MOST IMPORTANT QUESTION CORRECTLY!!!");
 }
 else
 {
